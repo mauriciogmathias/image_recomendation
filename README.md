@@ -24,7 +24,7 @@ The project is divided into three main scripts:
 
 ## Pretrained Model
 
-The project uses the ResNet50 model for feature extraction, a powerful deep learning model that has been pre-trained on ImageNet. However, an observed limitation in this project is that ResNet50 extracts the white background of images as a prominent feature. As a result, the recommended images may not always be visually similar to the query image but may share a common white background. While this is a known flaw, it provided valuable insights during testing.
+The project uses the ResNet50 model for feature extraction. However, an observed limitation in this project is that ResNet50 extracts the white background of images as a prominent feature. As a result, the recommended images may not always be visually similar to the query image but may share a common white background. While this is a known flaw, it provided valuable insights during testing.
 
 ## How to Run the Project
 
@@ -48,8 +48,3 @@ The project uses the ResNet50 model for feature extraction, a powerful deep lear
 - Matplotlib
 - Pandas
 - tqdm
-
-Install the required packages using the following command:
-
-```bash
-pip install tensorflow numpy scikit-learn matplotlib pandas tqdm
