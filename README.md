@@ -1,4 +1,4 @@
-# Image Recommendation Project
+# image_recomendation 
 
 This project implements an image recommendation system using deep learning techniques. It extracts features from images of fashion products and uses these features to recommend similar images based on a query image.
 
